@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes{
+    background-color: rgb(185, 133, 185);
+    margin: 6vh 6vh;
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.notes:hover{
+    transform: scale(1.1);
+}
+
+.notesContent{
+    width:30vw;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 30vh;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+    padding: 10px 10px;
+}
